@@ -5,7 +5,7 @@ import logo from './assets/Coffee_logo.png';
 const API_URL = process.env.REACT_APP_API_URL || 'https://ghohlov.pythonanywhere.com/recommend';
 
 const FLAVORS = [
-  { label: 'Кислотность',  value: 'acidity'   },
+  { label: 'Кислотный',  value: 'acidity'   },
   { label: 'Шоколадный',   value: 'chocolate' },
   { label: 'Ореховый',     value: 'nutty'     },
   { label: 'Фруктовый',    value: 'fruity'    },
