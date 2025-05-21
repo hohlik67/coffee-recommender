@@ -1,0 +1,143 @@
+/* Базовый контейнер */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+/* Стили landing-страницы */
+.Landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #ffffff;
+  text-align: center;
+}
+
+.Landing-logo {
+  display: block;
+  margin: 0 auto 2rem;
+  max-width: 250px;
+  width: 60%;
+  display: block;
+  margin: 0 auto 2rem;
+  max-width: 500px;
+  width: 80%;
+}
+
+.Landing-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: #6b4f4f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Return-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  background: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  transition: background 0.2s;
+}
+.Return-button:hover {
+  background: #bbb;
+}
+/* Контейнер для страницы рекомендаций */
+.AppContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-top: 4rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+/* Заголовки */
+.AppContent h1,
+.AppContent h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Секции */
+.AppContent section {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+/* Вкусовые дескрипторы */
+.AppContent .flavors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.AppContent .flavors label {
+  background: #f0f0f0;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.AppContent .flavors input {
+  margin-right: 0.3rem;
+}
+
+/* Стили select */
+.AppContent select {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Кнопка */
+.AppContent button {
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  background: #6b4f4f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: background 0.2s;
+}
+
+.AppContent button:hover {
+  background: #543b3b;
+}
+
+/* Список рекомендаций */
+.AppContent ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.AppContent li {
+  background: #f9f9f9;
+  margin-bottom: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-align: left;
+}
+
+/* Ошибки */
+.error {
+  color: #b00020;
+  margin-bottom: 1rem;
+}
